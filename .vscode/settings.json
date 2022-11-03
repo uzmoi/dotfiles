@@ -1,0 +1,87 @@
+{
+  "files.autoSave": "onWindowChange",
+  "files.eol": "\n",
+  // theme
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Plastic",
+  // editor
+  "editor.fontFamily": "HackGenNerd, monospace",
+  "editor.tokenColorCustomizations": {
+    "comments": "#888"
+  },
+  "indentRainbow.colors": ["transparent", "#ffffff0f"],
+  "highlightLine.borderColor": "white",
+  "highlightLine.borderWidth": "1px",
+  "highlightLine.borderStyle": "solid",
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.bracketPairColorization.enabled": false,
+  // editor/suggestion
+  "editor.snippetSuggestions": "none",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.quickSuggestions": {
+    "other": "inline"
+  },
+  "editor.suggestSelection": "recentlyUsed",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  // terminal
+  "terminal.integrated.fontFamily": "HackGenNerd Console, monospace",
+  "terminal.integrated.fontSize": 12,
+  // git
+  "git.pruneOnFetch": true,
+  // comment
+  "todo-tree.tree.showCountsInTree": true,
+  "todo-tree.tree.showBadges": true,
+  "todo-tree.regex.regex": "(\\b($TAGS)\\b)",
+  "todo-tree.general.schemes": ["file", "untitled", "all"],
+  "todo-tree.general.tags": [
+    "FIXME",
+    "BUG",
+    "XXX",
+    "WARNING",
+    "HACK",
+    "TODO",
+    "INFO",
+    "NOTE",
+    "MEMO"
+  ],
+  "todo-tree.general.tagGroups": {
+    "FIXME": ["BUG", "XXX"],
+    "WARNING": ["HACK"],
+    "INFO": ["NOTE", "MEMO"]
+  },
+  "todo-tree.highlights.defaultHighlight": {
+    "gutterIcon": true,
+    "rulerLane": "none",
+    "fontStyle": "italic",
+    "fontWeight": "bold"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "FIXME": {
+      "icon": "flame",
+      "iconColour": "#f33",
+      "foreground": "#f33"
+    },
+    "WARNING": {
+      "icon": "alert",
+      "iconColour": "#ff0",
+      "foreground": "#ff0"
+    },
+    "TODO": {
+      "icon": "tasklist",
+      "iconColour": "#3af",
+      "foreground": "#3af"
+    },
+    "INFO": {
+      "icon": "info",
+      "iconColour": "#aaa",
+      "foreground": "#ccc"
+    }
+  },
+}
